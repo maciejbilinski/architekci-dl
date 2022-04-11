@@ -76,7 +76,6 @@ class DataManager:
         self.convention = []
         for i in range(len(classes)):
             self.convention.append((i, classes[i]))
-
         for i in range(len(self.y)):
             for j in range(len(self.convention)):
                 if self.y[i] == self.convention[j][1]:
